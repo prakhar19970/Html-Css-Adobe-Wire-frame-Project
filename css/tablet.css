@@ -1,0 +1,143 @@
+@media (max-width: 768px) {
+  #top-bar {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "div1 div2 ";
+  }
+  .logo {
+    font: Bold 18px/22px Helvetica;
+    padding: 20px 0px 0px 29px;
+  }
+  .nav-links {
+    grid-area: div1;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 19px 0px 0px 0px;
+    margin: 11px 0px 0px 0px;
+    width: 399px;
+    height: 65px;
+  }
+  .donate-button {
+    padding: 15px 0px 0px 22px;
+  }
+  .button {
+    grid-area: div2;
+    width: 202px;
+    height: 61px;
+    margin: 19px 0px 0px 71px;
+  }
+  .image {
+    background-image: url("/assets/assets/home/annie-spratt-135307-unsplash@2xtablet.png");
+    width: 768px;
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: "div1" "div2";
+  }
+  .intro-caption {
+    grid-area: div1;
+    width: 200px;
+    height: 150px;
+    margin: 0px 0px 0px 60px;
+    font-size: 48px;
+  }
+  .intro-card {
+    grid-area: div2;
+    width: 633px;
+    height: 278px;
+    margin: 0px 0px 141px 71px;
+    padding: 0px 0px 0px 0px;
+  }
+  .intro-h1 {
+    font: Bold 28px/36px Helvetica;
+    width: 500px;
+    height: 138px;
+    padding: 50px 0px 0px 60px;
+    margin: 0px 0px 0px 0px;
+  }
+  .the-issue {
+    position: absolute;
+    margin: -20px 0px 0px 22px;
+  }
+  .intro-p {
+    margin: -10px 0 0 45px;
+  }
+  .take-action {
+    margin: 675px 45px 0px 261px;
+    position: absolute;
+  }
+  .take-action-card {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "div1 div2" "div3 div4";
+    width: 768px;
+    height: 337px;
+  }
+  .action-card {
+    width: 260px;
+    margin: 32px 0px 0px 55px;
+    font-size: 15px;
+    padding: 0px 0px 0px 0px;
+  }
+  .what-box {
+    width: 150px;
+    height: 46px;
+    font-size: 16px;
+    margin: 88px 0px 0px 0px;
+  }
+  .mission-area {
+    width: 768px;
+    height: 1338px;
+  }
+  .mission-title {
+    margin: 160px 140px 0px 100px;
+    font: Bold 27px/36px Helvetica;
+    width: 600px;
+    height: 140px;
+  }
+  .info-area {
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 28%);
+    grid-template-areas: "div1" "div2" "div3";
+    grid-gap: 65px;
+  }
+  .info-box {
+    width: 614px;
+    height: 274px;
+    margin: 0px 0px 0px 94px;
+    padding: 0px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "div1 div2";
+  }
+  .info-title {
+    grid-area: div2;
+    padding: 0px 0px 0px 0px;
+    width: 157px;
+    margin: 49px 0px 0px 9px;
+  }
+  .info-box-text {
+    grid-area: div2;
+    width: 219px;
+    height: 120px;
+    font-size: 15px;
+    padding: 102px 0px 0px 9px;
+  }
+  .read-more {
+    width: 96px;
+    grid-area: div1;
+    height: 21px;
+    margin: 200px 0px 0px 150px;
+  }
+  .info-box-image1 {
+    top: 1462px;
+    left: 122px;
+  }
+
+  .info-box-image2 {
+    top: 1790px;
+    left: 122px;
+  }
+  .info-box-image3 {
+    top: 2132px;
+    left: 122px;
+  }
+}
