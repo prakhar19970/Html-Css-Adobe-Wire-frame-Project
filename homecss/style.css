@@ -14,15 +14,15 @@ html {
   grid-template-areas: "div1 div2 div2 div2 div3";
 }
 .logo {
-  width: 160px;
-  height: 63px;
+  width: 10rem;
+  height: 3rem;
   grid-area: div1;
   text-align: left;
   font: Bold 18px/18px Helvetica;
   letter-spacing: 0;
   color: #354463;
   opacity: 100%;
-  padding: 20px 4px 2px 75px;
+  padding: 9% 6% 3% 36%;
 }
 a {
   text-decoration: none;
@@ -504,7 +504,7 @@ pre {
   padding: 12px;
 }
 .bottom-bar {
-  padding: 20px;
+  padding: 2rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "div1 div2 div3";
@@ -516,11 +516,12 @@ footer {
 }
 .footer-caption {
   font-family: "Flood";
+
   color: #354463;
   font-size: 42px;
-  width: 274px;
-  height: 123px;
-  margin: 21px 0px 2px 0px;
+  width: 13rem;
+  height: 9rem;
+  margin: 10% 0% 2% 0%;
   grid-area: div3;
   text-align: right;
 }
@@ -539,8 +540,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 675px;
-  margin: 5px 0px 5px 0px;
+  width: 43rem;
+  margin: 1% 0px 1% 0%;
 }
 .footer-info-text {
   text-align: left;

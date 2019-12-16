@@ -1,4 +1,4 @@
-@media (max-width: 380px) {
+@media (max-width: 376px) {
   .top-bar {
     grid-template-rows: repeat(2, 50%);
     grid-template-areas: "div1" "div2";
@@ -321,7 +321,7 @@
   }
   .footer-links {
     grid-area: div1;
-    width: 376px;
+    width: 373px;
     margin: 0px 0px 0px 0px;
   }
   .contact-us {
