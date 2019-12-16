@@ -1,0 +1,214 @@
+html {
+  scroll-behavior: smooth;
+}
+.title-logo {
+  display: flex;
+  width: auto;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  top: 0px;
+  left: 0px;
+}
+.form-image {
+  width: auto;
+  background-image: url("/assets/assets/donation/annie-spratt-427340-unsplash.png");
+  background-repeat: no-repeat;
+  height: 1224px;
+  opacity: 100%;
+}
+.form-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "div1 div2";
+  height: 1224px;
+}
+.form-caption {
+  grid-area: div2;
+  margin: 0px 0px 0px 0px;
+  top: 137px;
+  left: 249px;
+  width: 361px;
+  height: 258px;
+  position: relative;
+}
+.donation-form {
+  top: 144px;
+  left: 90px;
+  width: 577px;
+  height: 980px;
+  background: #354463;
+  opacity: 100%;
+  grid-area: div1;
+  position: relative;
+}
+.form-title {
+  text-align: left;
+  font: Bold 25px/39px Helvetica;
+  color: #ffffff;
+  width: 425px;
+  height: 43px;
+  top: 53%;
+  position: relative;
+  left: 8%;
+}
+.main {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "pesonal-info-area" "payment-area";
+  width: 577px;
+  height: 969px;
+}
+.personal-info-area {
+  display: grid;
+  grid-template-rows: 20% repeat(4, 20%);
+  grid-template-areas: "info-title" "name" "address1" "address2" "email";
+}
+.info-title {
+  grid-area: info-title;
+}
+.input-long {
+  left: 8%;
+  width: 83%;
+}
+.input-medium {
+  width: 65%;
+  left: 17%;
+}
+.input-small {
+  width: 60%;
+  left: 17%;
+}
+.name {
+  grid-area: name;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "first-name last-name";
+}
+.input-first-name {
+  grid-area: first-name;
+  left: 17%;
+}
+.input-last-name {
+  grid-area: last-name;
+  left: 17%;
+}
+.address1 {
+  grid-area: address1;
+  left: 8%;
+}
+.address2 {
+  grid-area: address2;
+  display: grid;
+  grid-template-columns: 50% repeat(2, 1fr);
+  grid-template-areas: "city state zip-code";
+}
+.city {
+  grid-area: city;
+  left: 17%;
+}
+.state {
+  grid-area: state;
+  left: 17%;
+  top: 1%;
+}
+.zip-code {
+  grid-area: zip-code;
+  left: 17%;
+}
+.email {
+  grid-area: email;
+  left: 8%;
+}
+.payment-area {
+  display: grid;
+  grid-template-rows: 20% repeat(3, 20%);
+  grid-template-areas: "pay-title" "creditcard" "expire" "confirm" "navigate";
+}
+.pay-title {
+  grid-area: pay-title;
+}
+.creditcard {
+  grid-area: creditcard;
+  left: 8%;
+}
+.expire {
+  grid-area: expire;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "expiration sec-code";
+}
+.sec-code {
+  grid-area: sec-code;
+  left: 8%;
+}
+.confirm {
+  grid-area: confirm;
+  font: Bold 21px/34px Helvetica;
+  top: 0%;
+}
+.expiration {
+  grid-area: expiration;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "month year";
+}
+.month {
+  grid-area: month;
+  left: 32%;
+}
+.year {
+  grid-area: year;
+  left: 32%;
+}
+.navigate {
+  grid-area: navigate;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "go-back payment";
+}
+.go-back {
+  grid-area: go-back;
+  color: #c1f7d5;
+  position: relative;
+  top: 35%;
+  left: 16%;
+  text-decoration: underline;
+  width: 23%;
+  height: 23%;
+}
+.payment {
+  grid-area: payment;
+  width: 51%;
+  height: 19%;
+  top: 18%;
+  position: relative;
+}
+.input-area {
+  background: transparent;
+  color: #ffffff;
+  height: 42%;
+  position: relative;
+  top: 27%;
+  border: none;
+  border-bottom: 0px solid #c1f7d5;
+  border-bottom-width: 0px;
+  border-bottom-width: 0px;
+  border-width: 2px;
+}
+
+.label-text {
+  color: white;
+  text-align: left;
+  font: lighter 13px/13px Helvetica;
+  letter-spacing: 0.56px;
+  position: relative;
+  height: 2rem;
+  top: 1rem;
+}
+
+input {
+  -webkit-appearance: none;
+}

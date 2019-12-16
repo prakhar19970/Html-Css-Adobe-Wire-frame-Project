@@ -1,0 +1,338 @@
+@media (max-width: 380px) {
+  .top-bar {
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: "div1" "div2";
+  }
+  .logo {
+    font: Bold 18px/18px Helvetica;
+    padding: 20px 0px 0px 0px;
+  }
+  .nav-links {
+    text-align: left;
+    font: Light 13px/18px Helvetica;
+    grid-area: div1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 0px 0px 182px;
+    width: 156px;
+  }
+  .donate-button {
+    display: inline-block;
+    padding: 3px 0px 0px 36px;
+  }
+
+  .button {
+    width: 237px;
+    height: 35px;
+    margin: 8px 0px 0px 46px;
+    grid-area: div2;
+  }
+  .image {
+    background-image: url("/assets/assets/home/annie-spratt-135307-unsplash@2xcropped.png");
+    /* width: 376px; */
+    width: auto;
+  }
+  .intro-caption {
+    margin: 0px 0px 0px 22px;
+    padding: 0px 0px 109px 3px;
+  }
+  .intro-card {
+    width: 312px;
+    height: 253px;
+    margin: 0px 12px 27px 25px;
+  }
+  .intro-h1 {
+    font: Bold 18px/26px Helvetica;
+    width: 283px;
+    height: 113px;
+    padding: 53px 0px 0px 16px;
+    text-align: -moz-center;
+    margin: 0px 0px 10px 0px;
+  }
+  .the-issue {
+    left: 72px;
+  }
+  .intro-p {
+    font-size: 14px;
+    font-family: Helvetica;
+    padding: 0px 15px 0px 0px;
+    text-align: center;
+    margin: 0px 0px 0px 19px;
+  }
+  .take-action {
+    margin: 673px 45px 0px 66px;
+    position: absolute;
+  }
+  .take-action-card {
+    /* width: 376px; */
+    width: auto;
+    height: 337px;
+  }
+  .action-card {
+    width: 159px;
+    margin: 32px 0px 0px 14px;
+    font-size: 14px;
+  }
+  .what-box {
+    width: 150px;
+    height: 46px;
+    font-size: 16px;
+    margin: 88px 0px 0px 0px;
+  }
+  .mission-area {
+    /* width: 376px; */
+    width: auto;
+    height: 2220px;
+  }
+  .mission-title {
+    margin: 92px 0px 0px 29px;
+    font: Bold 19px/33px Helvetica;
+    width: 320px;
+    height: 68px;
+    text-align: center;
+  }
+  .info-area {
+    grid-gap: 35px;
+    width: 376px;
+  }
+  .info-box {
+    width: 327px;
+    height: 500px;
+    margin: 188px 0px 0px 20px;
+    padding: 0px 0px 0px 0px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "div1" "div2";
+    text-align: center;
+  }
+  .info-title {
+    grid-area: div1;
+    width: 289px;
+    margin: 186px 0px 0px 21px;
+  }
+  .info-box-text {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 57px;
+  }
+  .read-more {
+    width: 137px;
+    height: 29px;
+    margin: 159px 0px 0px 95px;
+    padding: 11px 0px 0px 5px;
+    grid-area: div2;
+  }
+  .info-box-image1 {
+    top: 1463px;
+    left: 54px;
+  }
+
+  .info-box-image2 {
+    top: 2077px;
+    left: 54px;
+  }
+  .info-box-image3 {
+    top: 2706px;
+    left: 54px;
+  }
+  .facts-area {
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: "div1" "div2";
+    /* width: 376px; */
+    width: auto;
+    height: 1046px;
+    background-image: url("../assets/assets/home/Did\ you\ know\ background@2xmobile.png");
+  }
+  .facts-caption {
+    grid-area: div1;
+    font-size: 44px;
+    width: 263px;
+    height: 278px;
+    padding: 117px 0px 0px 38px;
+  }
+  .fact-box {
+    font-size: 13px;
+    width: 288px;
+    height: 123px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 40px;
+  }
+  .fbox-icons-twit {
+    left: 37px;
+  }
+  .fbox-icons-fb {
+    margin: 0px 0px 0px 248px;
+  }
+  .fbox-title {
+    width: 261px;
+    margin: 16px 0px 0px 13px;
+  }
+  pre {
+    height: 37px;
+  }
+  .fact-button {
+    grid-area: div1;
+    margin: 332px 0px 0px 35px;
+    grid-area: div1;
+    height: 20px;
+    padding: 13px 0px 14px 0px;
+    width: 138px;
+  }
+  .did-know {
+    margin: 401px 0px 0px 59px;
+  }
+
+  .stories-area {
+    /* width: 376px; */
+    width: auto;
+    height: 1015px;
+  }
+  .story-box {
+    position: relative;
+    height: 325px;
+    width: 250px;
+    font: Bold 21px/27px Helvetica;
+    padding: 31px;
+    margin: 387px 0px 0px 30px;
+    text-align: center;
+  }
+  .story-image {
+    background-image: url("../assets/assets/home/lady-baby@2xmobile.png");
+    margin: 34px 0px 0px 29px;
+    width: 312px;
+    height: 312px;
+  }
+  .stories {
+    top: 55px;
+    margin: 0px 0px 0px 66px;
+    width: 190px;
+    height: 40px;
+  }
+  .story-read-more {
+    top: 96px;
+    right: 22px;
+  }
+  .future-area {
+    /* width: 376px; */
+    width: auto;
+    height: 1835px;
+  }
+  .future-caption {
+    font-size: 44px;
+    width: 289px;
+    height: 181px;
+    padding: 75px 42px 76px 42px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+  }
+  .future-box {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "div1"
+      "div2";
+    width: 313px;
+    height: 658px;
+    margin: 0px 0px 8px 41px;
+    padding: 0px 0px 0px 0px;
+  }
+  .future-box-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .future-box-img-1 {
+    width: 288px;
+    height: 288px;
+    margin: 15px 10px 0px 15px;
+  }
+  .future-box-img-2 {
+    grid-area: div1;
+    margin: 15px 10px 0px 15px;
+  }
+  .future-box-info-1 {
+    grid-template-rows: 24% 54% 22%;
+    grid-template-areas: "div2" "div3" "div4";
+  }
+  .future-box-info-2 {
+    grid-area: div2;
+    grid-template-rows: 24% 54% 22%;
+    grid-template-areas: "div2" "div3" "div4";
+  }
+  .future-title {
+    font: Bold 20px/34px Helvetica;
+    width: 307px;
+    height: 67px;
+    margin: 5px 0px 0px 3px;
+    text-align: center;
+  }
+  .future-text {
+    width: 313px;
+    height: 172px;
+    font: lighter 14px/28px Helvetica;
+    text-align: center;
+    margin: 0px;
+  }
+  .future-read-more {
+    grid-area: div4;
+    text-align: center;
+    font: Bold 14px/16px Helvetica;
+    padding: 10px 0px 0px 0px;
+    height: 32px;
+    margin: 25px 0px 0px 85px;
+    width: 148px;
+  }
+  .future-event-box {
+    left: 118px;
+    top: 365px;
+  }
+  .future-latest-news-box {
+    top: 34px;
+    left: 107px;
+  }
+  .subscribe-section {
+    width: auto;
+    height: 220px;
+  }
+  .subscribe-area {
+    flex-wrap: wrap;
+    width: 351px;
+    justify-content: space-around;
+    top: 0px;
+    left: 0px;
+  }
+  .subscribe-title {
+    width: 325px;
+    padding: 0px 9px 0px 20px;
+    margin: 41px 12px 18px 17px;
+  }
+  .email-box {
+    width: 164px;
+    height: 23px;
+  }
+  .footer-caption {
+    width: 179px;
+    margin: 28px 0px 2px 176px;
+  }
+  .links {
+    margin: 0px 97px 0px 0px;
+  }
+  .footer-links {
+    grid-area: div1;
+    width: 376px;
+    margin: 0px 0px 0px 0px;
+  }
+  .contact-us {
+    width: 158px;
+    margin: 0px 0px 0px 190px;
+  }
+
+  .bottom-bar {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "div1" "div2";
+    padding: 0px;
+    height: 538px;
+  }
+}

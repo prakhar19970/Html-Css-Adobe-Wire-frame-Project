@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
-  #top-bar {
+  .top-bar {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "div1 div2 ";
+    grid-template-areas: "div1 div2";
   }
   .logo {
     font: Bold 18px/22px Helvetica;
@@ -27,7 +27,7 @@
   }
   .image {
     background-image: url("/assets/assets/home/annie-spratt-135307-unsplash@2xtablet.png");
-    width: 768px;
+    width: auto;
     grid-template-columns: none;
     grid-template-rows: repeat(2, 50%);
     grid-template-areas: "div1" "div2";
@@ -54,11 +54,12 @@
     margin: 0px 0px 0px 0px;
   }
   .the-issue {
-    position: absolute;
-    margin: -20px 0px 0px 22px;
+    top: 19px;
+    left: 94px;
+    width: 0px;
   }
   .intro-p {
-    margin: -10px 0 0 45px;
+    margin: 0px 0px 0px 45px;
   }
   .take-action {
     margin: 675px 45px 0px 261px;
@@ -68,7 +69,7 @@
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "div1 div2" "div3 div4";
-    width: 768px;
+    width: auto;
     height: 337px;
   }
   .action-card {
@@ -84,11 +85,11 @@
     margin: 88px 0px 0px 0px;
   }
   .mission-area {
-    width: 768px;
+    width: auto;
     height: 1338px;
   }
   .mission-title {
-    margin: 160px 140px 0px 100px;
+    margin: 160px 0px 0px 100px;
     font: Bold 27px/36px Helvetica;
     width: 600px;
     height: 140px;
@@ -98,7 +99,7 @@
     grid-template-rows: repeat(3, 28%);
     grid-template-areas: "div1" "div2" "div3";
     grid-gap: 65px;
-    width: 768px;
+    width: auto;
   }
   .info-box {
     width: 614px;
@@ -123,10 +124,10 @@
     padding: 102px 0px 0px 9px;
   }
   .read-more {
-    width: 96px;
+    width: 137px;
+    height: 29px;
+    margin: 189px 0px 0px 96px;
     grid-area: div1;
-    height: 21px;
-    margin: 200px 0px 0px 150px;
   }
   .info-box-image1 {
     top: 1462px;
@@ -143,7 +144,7 @@
   }
 
   .facts-area {
-    width: 768px;
+    width: auto;
     height: 1279px;
     background-image: url("../assets/assets/home/did-you-know-background@2x.png");
   }
@@ -194,7 +195,7 @@
     margin: 136px 0px 0px 378px;
   }
   .stories-area {
-    width: 768px;
+    width: auto;
     height: 890px;
   }
   .story-box {
@@ -219,8 +220,8 @@
   }
 
   .future-area {
-    width: 768px;
-    height: 1340px;
+    width: auto;
+    height: 1390px;
   }
   .future-caption {
     font-size: 42px;
@@ -287,39 +288,43 @@
   }
   .subscribe-section {
     width: auto;
-    height: 200px;
+    height: 246px;
   }
   .subscribe-area {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
-    top: 53px;
-    position: relative;
-    margin: 0px 0px 0px 56px;
-    width: 1190px;
-  }
-  .subscribe-read-more {
-    background: #354463;
-    color: #c1f7d5;
-    border-radius: 100px;
-    text-align: center;
-    font: Bold 14px/16px Helvetica;
-    padding: 8px 12px 7px 12px;
+    top: 48px;
+    margin: 0px 0px 0px 0px;
+    width: 642px;
+    justify-content: space-around;
+    left: 33px;
   }
   .subscribe-title {
-    text-align: left;
-    font: Bold 24px/29px Helvetica;
-    color: #354463;
-    width: 552px;
-    margin: 21px 0px 21px 10px;
+    font: Bold 19px/28px Helvetica;
+    width: 440px;
+    margin: 21px 0px 21px 0px;
+    padding: 0px 153px 0px 0px;
   }
   .email-box {
-    border-radius: 100px;
-    width: 340px;
-    height: 17px;
-    border: none;
-    padding: 12px;
+    width: 431px;
+    height: 23px;
+  }
+  .bottom-bar {
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "div1 div2";
+  }
+  .footer-caption {
+    width: 179px;
+    margin: 209px 0px 2px 225px;
+    grid-area: div2;
+  }
+  .footer-links {
+    width: 395px;
+    margin: 5px 0px 0px 38px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .contact-us {
+    width: 178px;
+    margin: 0px 45px 0px 0px;
   }
 }
