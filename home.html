@@ -2,23 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/tablet.css" />
-    <link rel="stylesheet" href="css/mobile.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="HandheldFriendly" content="true">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="homecss/style.css" />
+    <link rel="stylesheet" href="homecss/tablet.css" />
+    <link rel="stylesheet" href="homecss/mobile.css" />
+
   </head>
   <body>
     <!----------------------------------Header area------------------------------------------>
 
     <header>
-      <div id="top-bar">
-        <div class="logo">The Green <br />Trees Initiative</div>
+      <div class="top-bar">
+       <div class="logo">The Green <br />Trees Initiative</div>
         <div class="nav-links">
           <a href="about.html">About</a>
-          <a href="stories.html">Our Stories</a>
-          <a href="news.html ">News and events</a>
+          <a href="#stories">Our Stories</a>
+          <a href="#news">News and events</a>
         </div>
         <div class="button">
           <a class="donate-button" href="donations.html">Donate Today</a>
@@ -29,10 +31,10 @@
 
     <section class="image">
       <form>
+        <a name="issue"><div class="the-issue"></a>
+          <p class="card-title">THE ISSUE</p>
+        </div>
         <section class="intro-card">
-          <div class="the-issue">
-            <p class="card-title">THE ISSUE</p>
-          </div>
           <h1 class="intro-h1">
             Climate change poses the biggest threat to women in developing
             nations.
@@ -58,7 +60,7 @@
         <p>Get the facts about this issue and how we're helping</p>
       </a>
 
-      <a class="action-card action-card2">
+      <a name="join" class="action-card action-card2">
         <h3>Volunteer</h3>
         <p>Find out about upcoming events that need your help.</p>
       </a>
@@ -76,7 +78,7 @@
    
    
     <section >
-        <p class="what-box">WHAT WE DO</p>
+      <a name="whatwedo"><p class="what-box">WHAT WE DO</p></a>
       </section>
     </section>
     <!----------------------------------mission area------------------------------------------>
@@ -144,53 +146,149 @@
     </section>
 
     <!----------------------------------facts area------------------------------------------>
-    <!-- <section class="facts-area">
+    <section class="facts-area">
 
         <section class="did-know">
             <p class="card-title">DID YOU KNOW?</p>
           </section>
         <div class="facts-caption">
-            CLIMATE CHANGE <br/>IS A HUNGER ISSUE.
+            CLIMATE CHANGE IS A<br/> HUNGER ISSUE.
         </div>
         <a class="button fact-button">Take Action</a>
 
         <div class="fact-box-area ">
           <div  class="fact-box ">
-              <h3 class="fbox-title">3 out of 4&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;      <img class="fbox-icons-twit" src="./assets/assets/home/iconmonstr-twitter-1.png"></h3>
+              <h3 class="fbox-title">3 out of 4&nbsp; &nbsp;&nbsp;&nbsp;      <img class="fbox-icons-twit" src="./assets/assets/home/iconmonstr-twitter-1.png"></h3>
               <p class="fbox-text">People living in poverty depend on agriculture for survival.
               </p>
               <img class="fbox-icons-fb" src="./assets/assets/home/iconmonstr-facebook-1.png">
                </div>
           <div  class="fact-box ">
-             <pre><h3 class="fbox-title">3 out of 4       <img class="fbox-icons-twit" src="./assets/assets/home/iconmonstr-twitter-1.png"></h3></pre>
+             <pre><h3 class="fbox-title">3 out of 4      <img class="fbox-icons-twit" src="./assets/assets/home/iconmonstr-twitter-1.png"></h3></pre>
               <p class="fbox-text">People living in poverty depend on agriculture for survival.</p>
               <img class="fbox-icons-fb" src="./assets/assets/home/iconmonstr-facebook-1.png">
             </div>
             <div class="fact-box ">
-               <pre><h3 class="fbox-title">30%                <img class="fbox-icons-twit" src="./assets/assets/home/iconmonstr-twitter-1.png"></h3></pre>  
-                <p class="fbox-text">How high crop yield losses could go<br/> by the year 2080</p>
+               <pre><h3 class="fbox-title">30%               <img class="fbox-icons-twit" src="./assets/assets/home/iconmonstr-twitter-1.png"></h3></pre>  
+                <p class="fbox-text">How high crop yield losses could go by the year 2080</p>
                 <img class="fbox-icons-fb" src="./assets/assets/home/iconmonstr-facebook-1.png">
               </div>
               <div class="fact-box ">
-                  <h3 class="fbox-title">200 million + <img class="fbox-icons-twit " src="./assets/assets/home/iconmonstr-twitter-1.png"></h3>
+                  <h3 class="fbox-title">200 million +<img class="fbox-icons-twit " src="./assets/assets/home/iconmonstr-twitter-1.png"></h3>
                  
-                  <p class="fbox-text">Number of refugees dealing with food <br/> shortages by the year 2050
+                  <p class="fbox-text">Number of refugees dealing with food shortages by the year 2050
                     </p>
                     <img class="fbox-icons-fb" src="./assets/assets/home/iconmonstr-facebook-1.png">
                 </div>
 
         </div>
-    </section>-->
+    </section>
     <!----------------------------------Stories area------------------------------------------>
-    <!-- <section class="stories-area">
-    <div class="story-image"><img style="width: 600px; height: 500px;" src="./assets/assets/home/lady-baby.png"></div>
-<div class="story-box">
-    
-<div class="story-text">
-  <p>“I am a person who was helped by this organization. Before they gave me assistance, I was really struggling with this issue, but now my life is better.”</p>
-  <p style="font-size: small;">BALKI, FARMER AND MOTHER IN NIGER</p>
+    <section class="stories-area">
+    <section class="stories">
+      <a name="stories"> <p class="card-title">STORIES</p></a>
+    </section>
+    <div class="story-image"></div>
+    <div class="story-box">
+      
+      <div class="story-text">
+        <p>“I am a person who was helped by this organization. Before they gave me assistance, I was really struggling with this issue, but now my life is better.”</p>
+        <p style="font-size: small;">BALKI, FARMER AND MOTHER IN NIGER</p>
+      </div>
+      <a  class="button story-read-more">Read More</a>
+      </div>
+</section>
+
+<!--Save the future area----------->
+<section class="future-area">
+  <div class="white-box future-event-box">
+    EVENT
+  </div>
+<div class="future-caption">
+  LET’S Take action now to save the future.
+</div>
+<section class="future-box-area">
+<div class="future-box">
+<div class="future-box-img-1"></div>
+<div class="future-box-info-1">
+  <h3 class="future-title">
+    Earth Day 2018 community tree planting event
+  </h3>
+  <p class="future-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi felis, auctor vitae vestibulum vel, consequat eu dolor. Nam pellentesque euismod laoreet. Aliquam sed nisl porttitor nisl laoreet semper nec iaculis nibh. Curabitur in tortor lorem.</p>
+  <a  class="button future-read-more">Read More</a>
 </div>
 </div>
-</section> -->
+<a name="news"><div class="white-box future-latest-news-box">
+  LATEST NEWS
+</div></a>
+<div class="future-box">
+ 
+  <div class="future-box-img-2"></div>
+  <div class="future-box-info-2">
+    <h3 class="future-title">
+      Updates from the fall quarterly meeting
+    </h3>
+    <p class="future-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi felis, auctor vitae vestibulum vel, consequat eu dolor. Nam pellentesque euismod laoreet. Aliquam sed nisl porttitor nisl laoreet semper nec iaculis nibh. Curabitur in tortor lorem.</p>
+    <a  class="button future-read-more">Read More</a>
+</div> 
+</section>
+</section>
+<!----end-->
+
+<!---------------------subscribe area-------------------->
+<section class="subscribe-section">
+<div class="subscribe-area">
+  <div>
+    <p class="subscribe-title">Subscribe to our monthly newsletter and stay up to date with all news and events.</p>
+  </div>
+  <div><form>
+    <input type="email"
+    name="email"
+    placeholder="Enter your email address" class="email-box">
+  </form>
+  </div>
+  <div>
+    <a  class="subscribe-read-more">Subscribe</a>
+  </div>
+</div>
+</section>
+
+<!------------------------footer area-->
+<footer>
+<div class="bottom-bar">
+  <div class="logo">The Green <br />Trees Initiative</div>
+  <div class="footer-links">
+  <div class="contact-us">
+    <p class="footer-info-text">CONTACT US</p>
+    <div class="dash"></div>
+    <div class="footer-info-text">123 Anywhere St. Cityname, NY 11206 (123) 456-7890 contact@npo.org</div>
+  </div>
+  <div>
+    <p class="footer-info-text">LINKS</p>   
+    <div class="dash"></div>
+    <div class="links">
+      <a href="#issue"">The issue</a>
+      <a href="#whatwedo">How we help</a>
+      <a href="#join">Get involved</a>
+      <a href="#news">Latest news</a>
+  </div>
+  </div>
+  <div>
+    <p class="footer-info-text">FOLLOW US</p>  
+    <div class="dash"></div> 
+     <div  class="links">
+      <a href="">Facebook</a>
+      <a href="">Twitter</a>
+      <a href="">Instagram</a>
+      <a href="#news">Latest news</a>
+  </div>
+  </div>
+</div>
+  <div class="footer-caption">
+    #STOP CLIMATE CHANGE
+</div>
+</div>
+</footer>
+
   </body>
 </html>
