@@ -36,24 +36,26 @@
     grid-area: div1;
     width: 200px;
     height: 150px;
-    margin: 0px 0px 0px 60px;
     font-size: 48px;
+    top: 23%;
+    left: 12%;
   }
   .intro-card {
     grid-area: div2;
-    width: 633px;
-    height: 278px;
-    margin: 0px 0px 141px 71px;
-    padding: 0px 0px 0px 0px;
+    width: 73%;
+    height: 74%;
+    top: 10%;
+    left: 7%;
   }
   .intro-h1 {
     font: Bold 28px/36px Helvetica;
-    width: 500px;
+    width: 78%;
     height: 138px;
     padding: 50px 0px 0px 60px;
     margin: 0px 0px 0px 0px;
   }
   .the-issue {
+    grid-area: div2;
     top: 19px;
     left: 94px;
     width: 0px;
@@ -62,7 +64,8 @@
     margin: 0px 0px 0px 45px;
   }
   .take-action {
-    margin: 675px 45px 0px 261px;
+    top: 78%;
+    left: 37%;
     position: absolute;
   }
   .take-action-card {
@@ -192,7 +195,7 @@
     padding: 13px 0px 14px 0px;
   }
   .did-know {
-    margin: 136px 0px 0px 378px;
+    margin: 131px 0px 0px 393px;
   }
   .stories-area {
     width: auto;

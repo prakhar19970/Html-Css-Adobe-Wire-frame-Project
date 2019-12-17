@@ -1,0 +1,59 @@
+.image {
+  top: 0%;
+  left: 0%;
+  width: auto;
+  height: 21rem;
+  background-image: url("/assets/assets/about-us/annie-spratt-427339-unsplash.png");
+}
+.intro-card {
+  width: 38%;
+  height: 37%;
+  grid-area: div2;
+}
+.intro-h1 {
+  font: Bold 25px/36px Helvetica;
+  padding: 0 0 0 25px;
+  width: 89%;
+  height: 95%;
+}
+.intro-p {
+  text-decoration: underline;
+  padding: 15px;
+  margin: 0 0 0 10px;
+  text-decoration: underline;
+  font: lighter 16px/24px Helvetica;
+}
+.intro-text {
+  font-size: 72px;
+  width: 220px;
+  height: 230px;
+  color: white;
+  margin: -70px 0 0 70px;
+}
+.the-issue {
+  position: relative;
+
+  top: 39%;
+
+  left: 24%;
+
+  grid-area: div1;
+
+  z-index: 1;
+}
+.card-title {
+  color: white;
+  background: #354463;
+  font-family: monospace;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 0px 40px;
+}
+.intro-caption {
+  left: 24%;
+  top: 6%;
+  font-size: 58px;
+}

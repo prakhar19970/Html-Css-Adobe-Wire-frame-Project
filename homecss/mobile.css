@@ -41,7 +41,7 @@
   .intro-card {
     width: 312px;
     height: 253px;
-    margin: 0px 12px 27px 25px;
+    margin: 0px 12px 27px 2px;
   }
   .intro-h1 {
     font: Bold 18px/26px Helvetica;
@@ -52,7 +52,7 @@
     margin: 0px 0px 10px 0px;
   }
   .the-issue {
-    left: 72px;
+    left: 101px;
   }
   .intro-p {
     font-size: 14px;
@@ -62,8 +62,9 @@
     margin: 0px 0px 0px 19px;
   }
   .take-action {
-    margin: 673px 45px 0px 66px;
-    position: absolute;
+    top: 122%;
+
+    left: 29%;
   }
   .take-action-card {
     /* width: 376px; */
