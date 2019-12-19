@@ -1,0 +1,145 @@
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+  .intro-area {
+    grid-template-rows: 1fr 1fr;
+    height: 88rem;
+    width: 47rem;
+  }
+  .img1 {
+    /* background: url("/assets/assets/about-us/annie-spratt-427339-unsplash@2xtablet.png") */
+    /* no-repeat; */
+    /* background-size: 100% 100%; */
+    height: 109%;
+    width: auto;
+  }
+  .showcase {
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "caption" "text";
+    width: auto;
+  }
+  .img2 {
+    height: 59rem;
+    width: auto;
+  }
+  .intro-caption {
+    left: 19%;
+    top: 14%;
+    font-size: 50px;
+  }
+
+  .intro-card {
+    width: 175%;
+    height: 93%;
+    padding: 4%;
+    left: 23%;
+    top: 8%;
+    margin: 0% 0% 0% 0%;
+  }
+  .intro-h1 {
+    font: Bold 22px/35px Helvetica;
+    width: 90%;
+    height: 74%;
+    padding: 3% 4% 3% 4%;
+  }
+
+  .symbol-text {
+    font-size: 12px;
+    width: 15rem;
+    height: 4rem;
+  }
+  .symbol-part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 96%;
+    left: 3%;
+    position: relative;
+    flex-wrap: wrap;
+    top: 0%;
+  }
+  .mission-title {
+    /* width: 43rem; */
+    left: 5%;
+    top: 41%;
+    height: 52%;
+    font-size: 1.438rem;
+  }
+  .what-box {
+    top: 15%;
+    left: 5%;
+    margin: 0%;
+  }
+  .the-issue {
+    top: 0%;
+    left: 34%;
+  }
+  .team-main-grid {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas: "info-text" "profiles";
+    height: inherit;
+  }
+  .info-text {
+    display: grid;
+    grid-area: info-text;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "title-area description";
+  }
+  .team-flex {
+    grid-area: profiles;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    left: 4%;
+    position: relative;
+    flex-wrap: wrap;
+    height: 22rem;
+    top: 0%;
+    width: 81%;
+  }
+  .our-team {
+    grid-area: title-area;
+    position: relative;
+    top: 17%;
+    left: 15%;
+    width: 84%;
+    height: 13%;
+  }
+  .team-area-title {
+    grid-area: title-area;
+    position: relative;
+    color: #354463;
+    font: Bold 31px/36px Helvetica;
+    width: 84%;
+    height: 28%;
+    top: 46%;
+    left: 15%;
+  }
+  .team-area-description {
+    grid-area: description;
+    position: relative;
+    color: #354463;
+    font: lighter 15px/27px Helvetica;
+    width: 77%;
+    height: 25%;
+    top: 46%;
+    left: 8%;
+  }
+  .profile-img {
+    width: 40%;
+    height: 69%;
+    margin: 0% 0% 13% 0%;
+  }
+  .img-size {
+    width: 107%;
+    height: 108%;
+  }
+  .stories-area {
+    height: 85rem;
+  }
+  .profile-name {
+    width: 81%;
+    padding: 2% 15% 1% 9%;
+    left: 12%;
+    top: 117%;
+  }
+}

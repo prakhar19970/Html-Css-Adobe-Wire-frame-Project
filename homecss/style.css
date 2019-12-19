@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+/* * {
+  box-sizing: border-box;
+} */
 @font-face {
   font-family: "Flood";
   src: url("../fonts/Flood.ttf");
@@ -8,99 +11,107 @@ html {
   font-weight: normal;
 }
 .top-bar {
-  padding: 20px;
+  padding: 1%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas: "div1 div2 div2 div2 div3";
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "div1 div2 div3";
+  width: auto;
+  position: relative;
 }
 .logo {
-  width: 10rem;
-  height: 3rem;
+  width: 57%;
+  height: 63%;
   grid-area: div1;
   text-align: left;
-  font: Bold 18px/18px Helvetica;
+  font: bold 112.5% Helvetica;
   letter-spacing: 0;
   color: #354463;
   opacity: 100%;
   padding: 9% 6% 3% 36%;
+  position: relative;
 }
 a {
   text-decoration: none;
   color: #354463;
 }
 .nav-links {
-  top: 34px;
-  left: 160px;
-  width: 800px;
-  height: 63px;
-  padding: 25px 30px 10px 40px;
+  top: 43%;
+  width: 100%;
+  height: 39%;
   text-align: left;
-  font: lighter 16px/24px Helvetica;
+  font-weight: lighter;
+  font-family: Helvetica;
   grid-area: div2;
   display: flex;
   justify-content: space-evenly;
+  position: relative;
+  font-size: 100%;
+  line-height: 150%;
 }
 .donate-button {
   text-align: center;
-  width: 160px;
-  height: 48px;
-  font: Bold 16px/24px Helvetica;
-  display: inline-block;
-  grid-area: div3;
-  padding: 15px 0px 0px 0px;
+  width: 100%;
+  height: 50%;
+  font: bold 100% Helvetica;
+  line-height: 150%;
+  position: relative;
+  top: 27%;
+  left: 11%;
 }
 .button {
+  grid-area: div3;
   background: #c1f7d5;
-  border-radius: 100px;
-  width: 160px;
-  height: 58px;
-  margin: 10px 0px 0px 0px;
+  border-radius: 2rem;
+  width: 54%;
+  height: 67%;
+  position: relative;
+  top: 15%;
 }
 .image {
   width: auto;
-  height: 672px;
+  height: 42rem;
   background-image: url("/assets/assets/home/annie-spratt-135307-unsplash.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "div1 div2";
   opacity: 100%;
+  position: relative;
 }
-
+.info-area img {
+  width: 100%;
+  height: 89%;
+}
 .intro-card {
   background: white;
   color: #354463;
   position: relative;
-  top: 40%;
+  top: 31%;
   left: 25%;
   grid-area: div1;
-  width: 74%;
-  height: 80%;
+  width: 69%;
+  height: 50%;
 }
 .intro-h1 {
-  font: Bold 36px/46px Helvetica;
+  font: bold 208.5% Helvetica;
   padding: 0 0 0 25px;
   width: 81%;
   height: 57%;
+  top: 6%;
+  position: relative;
 }
 .intro-p {
   text-decoration: underline;
   padding: 15px;
   margin: 0 0 0 10px;
   text-decoration: underline;
-  font: lighter 16px/24px Helvetica;
-}
-.intro-text {
-  font-size: 72px;
-  width: 220px;
-  height: 230px;
-  color: white;
-  margin: -70px 0 0 70px;
+  font: lighter 100%/150% Helvetica;
+  position: relative;
 }
 .the-issue {
   position: relative;
-  top: 36%;
+  top: 27%;
   left: 29%;
   grid-area: div1;
   z-index: 1;
@@ -111,46 +122,50 @@ a {
   color: white;
   background: #354463;
   font-family: monospace;
-  width: 150px;
-  height: 40px;
+  width: 91%;
+  height: 82%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0px 0px 0px 0px;
+  margin: 0%;
+  font-size: 118%;
 }
 .intro-caption {
   font-family: "Flood";
   color: white;
-  font-size: 64px;
-  width: 296px;
-  height: 224px;
+  font-size: 400%;
+  width: 39%;
+  height: 27%;
   position: relative;
-  top: 39%;
+  top: 27%;
   left: 19%;
   grid-area: div2;
 }
 .take-action {
-  position: relative;
-  width: 40%;
-  height: 6%;
-  top: 90%;
+  position: absolute;
+  width: 12%;
+  height: 8%;
+  top: 97%;
+  z-index: 1;
+  left: 44%;
 }
 .take-action-card {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "div1 div2 div3 div4";
-  top: 800px;
-  left: 0px;
   width: auto;
-  height: 240px;
+  height: 63vh;
   background: #c1f7d5;
   color: #354463;
+  position: relative;
 }
 .action-card {
-  width: 273px;
-  height: 94px;
-  padding: 50px 26px 0px 26px;
-  font-size: 16px;
+  width: 83%;
+  height: 50%;
+  font-size: 100%;
+  position: relative;
+  top: 20%;
+  left: 10%;
 }
 .action-card1 {
   grid-area: div1;
@@ -168,37 +183,47 @@ a {
   grid-area: div4;
 }
 .what-box {
-  top: 1128px;
-  left: 110px;
+  top: 63%;
+  left: 10%;
   color: #354463;
   background: white;
   font-family: monospace;
-  width: 150px;
-  height: 30px;
+  width: 12%;
+  height: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
 }
 .mission-area {
   display: grid;
   width: auto;
-  height: 1019px;
+  height: 65rem;
   background: #354463;
   opacity: 100%;
 }
 .mission-title {
   text-align: left;
-  font: Bold 32px/42px Helvetica;
-  letter-spacing: 0;
+  font: bold Helvetica;
   color: #ffffff;
   opacity: 100%;
-  margin: 160px 140px 0px 100px;
+  position: relative;
+  top: 5%;
+  width: 79%;
+  left: 10%;
+  font-size: 178%;
+  line-height: 173%;
 }
 .info-area {
   display: grid;
-  grid-template-columns: repeat(3, 28%);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "div1 div2 div3";
+  left: 0%;
+  position: relative;
+  bottom: 12%;
+  left: 4%;
+  width: 90%;
+  height: 29rem;
 }
 #box1 {
   grid-area: div1;
@@ -210,40 +235,61 @@ a {
   grid-area: div3;
 }
 .info-box {
-  width: 180px;
-  height: 300px;
-  margin: 0px 50px 0px 100px;
+  width: 74%;
+  height: 99%;
   background: #ffffff;
   opacity: 100%;
-  padding: 180px 50px 5px 50px;
   color: #354463;
+  position: relative;
+  left: 17%;
+  top: 9%;
+}
+.info-title {
+  top: 39%;
+  position: relative;
+  width: 60%;
+  left: 11%;
 }
 .info-box-text {
-  width: 200px;
-  height: 130px;
-  font-size: 14px;
+  width: 81%;
+  height: 19%;
+  font-size: 13px;
+  top: 39%;
+  position: relative;
+  padding: 0% 0% 0% 11%;
 }
 .read-more {
   text-align: center;
-  font: Bold 14px/16px Helvetica;
-  padding: 9px 25px 9px 25px;
+  font: bold 87.5% Helvetica;
+  padding: 3% 7% 3% 7%;
+  left: 10%;
+  top: 42%;
 }
-
 .info-box-image1 {
-  top: 1392px;
-  left: 150px;
   position: absolute;
+  z-index: 1;
+  left: 13%;
+  left: 9%;
+  top: 2%;
+  width: 19rem;
+  height: 50%;
 }
 
 .info-box-image2 {
-  top: 1392px;
-  left: 526px;
+  left: 42%;
   position: absolute;
+  z-index: 1;
+  top: 2%;
+  width: 19rem;
+  height: 51%;
 }
 .info-box-image3 {
-  top: 1392px;
-  left: 900px;
+  left: 75%;
   position: absolute;
+  width: 19rem;
+  height: 51%;
+  z-index: 1;
+  top: 2%;
 }
 
 .facts-area {
@@ -251,26 +297,32 @@ a {
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "div1 div2";
   width: auto;
-  height: 1279px;
+  height: 86rem;
   background-image: url("../assets/assets/home/did-you-know-background.png");
   background-size: 100% 100%;
+  position: relative;
 }
 .facts-caption {
   font-family: "Flood";
   color: white;
-  font-size: 64px;
-  width: 380px;
-  height: 300px;
-  padding: 140px 0px 0px 140px;
+  font-size: 400%;
+  width: 55%;
+  height: 19%;
+  top: 9%;
+  left: 18%;
+  position: relative;
   grid-area: div1;
 }
 .fact-button {
-  margin: 480px 0px 0px 140px;
   grid-area: div1;
-  height: 20px;
+  height: 2%;
   text-align: center;
-  font: Bold 14px/16px Helvetica;
+  font: bold 87.5% Helvetica;
   padding: 15px 5px 15px 5px;
+  position: relative;
+  top: 36%;
+  left: 18%;
+  width: 26%;
 }
 .fact-box-area {
   display: flex;
@@ -283,21 +335,20 @@ a {
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "div1" "div2";
   background: #ffffff;
-  margin-top: 50px;
-  width: 460px;
-  height: 180px;
-  left: 250px;
+  width: 67%;
+  height: 14%;
+  left: 4%;
   color: #354463;
 }
 .fbox-icons-twit {
   position: relative;
-  top: 8px;
-  left: 98px;
+  top: 27%;
+  left: 34%;
   background-color: #c1f7d5;
-  padding: 8px 9px 6px 7px;
-  width: 16px;
-  height: 13px;
-  -webkit-border-radius: 17px;
+  padding: 4% 3% 2% 3%;
+  width: 5%;
+  height: 26.25%;
+  -webkit-border-radius: 55%;
 }
 .fbox-icons-fb {
   grid-area: div2;
@@ -305,49 +356,50 @@ a {
   padding: 6px 11px 7px 8px;
   background-color: #c1f7d5;
   margin: 0px 0px 0px 380px;
-  width: 10px;
-  height: 13px;
-  -webkit-border-radius: 17px;
+  width: 3%;
+  height: 19%;
+  -webkit-border-radius: 55%;
 }
 
 pre {
-  height: 72px;
+  height: 85%;
 }
 .fbox-title {
-  grid-area: div1;
-  font: Bold 32px/46px Helvetica;
+  font: bold 200% Helvetica;
   text-align: left;
-  width: 422px;
-  height: 40px;
+  width: 67%;
+  height: 53.5%;
   padding: 0px 0px 0px 0px;
   margin: 29px 0px 0px 37px;
 }
 .fbox-text {
   grid-area: div2;
-  width: 286px;
-  height: 43px;
-  font: lighter 14px/20px Helvetica;
+  width: 74%;
+  height: 47%;
+  font: lighter 87.5% Helvetica;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 35px;
 }
 
 .did-know {
-  position: absolute;
   margin: 8% 0% 0% 52%;
+  width: 11rem;
+  height: 3%;
+  position: absolute;
 }
 
 .stories-area {
   background-color: #ffffff;
   width: auto;
-  height: 824px;
+  height: 51rem;
 }
 .story-box {
   position: relative;
-  height: 244px;
-  width: 344px;
+  height: 29%;
+  width: 26%;
   background-color: #354463;
   text-align: left;
-  font: Bold 22px/26px Helvetica;
+  font: bold 137%/125% Helvetica;
   color: #ffffff;
   padding: 35px 64px 20px 64px;
   margin: 247px 0px 0px 150px;
@@ -355,25 +407,27 @@ pre {
 .story-image {
   background-image: url("../assets/assets/home/lady-baby@2x.png");
   margin: 150px 0px 0px 557px;
-  width: 600px;
-  height: 500px;
+  width: 40%;
+  height: 143%;
   background-size: 100% 100%;
   position: absolute;
   opacity: 100%;
 }
 .stories {
   position: relative;
-  top: 168px;
+  top: 22%;
   margin: 0px 0px 0px 626px;
   z-index: 1;
+  width: 14%;
+  height: 6%;
 }
 .story-read-more {
   position: relative;
-  top: 78px;
+  top: 25%;
   padding: 9px 25px 14px 34px;
   text-align: center;
-  font: Bold 14px/16px Helvetica;
-  right: 62px;
+  font: bold 87.5%/100% Helvetica;
+  right: 17%;
 }
 .future-area {
   width: auto;
@@ -433,7 +487,7 @@ pre {
 .future-title {
   grid-area: div2;
   text-align: left;
-  font: Bold 28px/37px Helvetica;
+  font: bold 28px/37px Helvetica;
   width: 337px;
   height: 74px;
   margin: 33px 0px 0px 54px;
@@ -448,7 +502,7 @@ pre {
 .future-read-more {
   grid-area: div4;
   text-align: center;
-  font: Bold 14px/16px Helvetica;
+  font: bold 14px/16px Helvetica;
   padding: 12px 4px 0px 4px;
   height: 36px;
   margin: 33px 0px 0px 51px;
@@ -473,7 +527,6 @@ pre {
   left: 201px;
 }
 .subscribe-section {
-  width: auto;
   height: 200px;
   background: #c1f7d5;
 }
@@ -486,19 +539,19 @@ pre {
   top: 53px;
   position: relative;
   margin: 0px 0px 0px 56px;
-  width: 1190px;
+  width: auto;
 }
 .subscribe-read-more {
   background: #354463;
   color: #c1f7d5;
   border-radius: 100px;
   text-align: center;
-  font: Bold 14px/16px Helvetica;
+  font: bold 14px/16px Helvetica;
   padding: 8px 12px 7px 12px;
 }
 .subscribe-title {
   text-align: left;
-  font: Bold 24px/29px Helvetica;
+  font: bold 24px/29px Helvetica;
   color: #354463;
   width: 552px;
   margin: 21px 0px 21px 10px;
@@ -548,7 +601,7 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   width: 43rem;
-  margin: 1% 0px 1% 0%;
+  margin: 1% 0px 1% 2%;
 }
 .footer-info-text {
   text-align: left;

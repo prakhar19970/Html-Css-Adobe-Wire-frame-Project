@@ -1,33 +1,39 @@
-@media (max-width: 376px) {
+@media (max-width: 390px) {
   .top-bar {
     grid-template-rows: repeat(2, 50%);
     grid-template-areas: "div1" "div2";
+    height: 9rem;
   }
   .logo {
-    font: Bold 18px/18px Helvetica;
-    padding: 20px 0px 0px 0px;
+    top: 46%;
+    width: 75%;
+    left: 7%;
+    font: bold 112.5% Helvetica;
   }
   .nav-links {
     text-align: left;
-    font: Light 13px/18px Helvetica;
+    font: semi-condensed 14px/18px Helvetica;
     grid-area: div1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     padding: 0px 0px 0px 182px;
-    width: 156px;
+    width: 60%;
+    left: 11%;
+    height: 86%;
+    top: 26%;
   }
   .donate-button {
-    display: inline-block;
-    padding: 3px 0px 0px 36px;
+    left: 16%;
+    top: 10%;
   }
 
   .button {
-    width: 237px;
-    height: 35px;
-    margin: 8px 0px 0px 46px;
+    width: 109%;
+    height: 2rem;
     grid-area: div2;
+    top: 35%;
   }
   .image {
     background-image: url("/assets/assets/home/annie-spratt-135307-unsplash@2xcropped.png");
@@ -45,14 +51,14 @@
   }
   .intro-h1 {
     font: Bold 18px/26px Helvetica;
-    width: 283px;
-    height: 113px;
-    padding: 53px 0px 0px 16px;
+    width: 84%;
+    height: 43%;
     text-align: -moz-center;
-    margin: 0px 0px 10px 0px;
+    top: 10%;
   }
   .the-issue {
-    left: 101px;
+    width: 44%;
+    left: 31%;
   }
   .intro-p {
     font-size: 14px;
@@ -62,79 +68,91 @@
     margin: 0px 0px 0px 19px;
   }
   .take-action {
-    top: 122%;
-
-    left: 29%;
+    top: 98%;
+    left: 30%;
+    width: 42%;
   }
   .take-action-card {
-    /* width: 376px; */
     width: auto;
-    height: 337px;
+    height: 21rem;
   }
   .action-card {
-    width: 159px;
-    margin: 32px 0px 0px 14px;
+    width: 96%;
+    margin: 0%;
     font-size: 14px;
+    left: 2%;
+    height: 7rem;
   }
   .what-box {
-    width: 150px;
-    height: 46px;
+    width: 43%;
+    height: 42%;
     font-size: 16px;
-    margin: 88px 0px 0px 0px;
+    top: 39%;
+    left: 28%;
   }
   .mission-area {
-    /* width: 376px; */
     width: auto;
-    height: 2220px;
+    height: 147rem;
   }
   .mission-title {
-    margin: 92px 0px 0px 29px;
     font: Bold 19px/33px Helvetica;
-    width: 320px;
-    height: 68px;
+    width: 20rem;
+    height: 11rem;
     text-align: center;
   }
   .info-area {
-    grid-gap: 35px;
-    width: 376px;
+    grid-gap: 5%;
+    width: auto;
+    height: 124rem;
   }
   .info-box {
-    width: 327px;
-    height: 500px;
-    margin: 188px 0px 0px 20px;
-    padding: 0px 0px 0px 0px;
+    width: 19rem;
+    height: 29rem;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "div1" "div2";
     text-align: center;
   }
   .info-title {
     grid-area: div1;
-    width: 289px;
-    margin: 186px 0px 0px 21px;
+    width: 95%;
+    left: 4%;
+    top: 77%;
   }
   .info-box-text {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 57px;
+    left: 0%;
+    width: 78%;
+    line-height: 139%;
+    font-size: 95%;
   }
   .read-more {
-    width: 137px;
-    height: 29px;
-    margin: 159px 0px 0px 95px;
-    padding: 11px 0px 0px 5px;
+    width: 33%;
+    height: 9%;
     grid-area: div2;
+    top: 68%;
+  }
+  .info-area img {
+    width: 95%;
+
+    height: 107%;
   }
   .info-box-image1 {
-    top: 1463px;
-    left: 54px;
+    top: 0%;
+    left: 9%;
+    height: 13rem;
+    width: 18rem;
   }
 
   .info-box-image2 {
-    top: 2077px;
-    left: 54px;
+    top: 32%;
+    left: 8%;
+    height: 13rem;
+    width: 18rem;
   }
   .info-box-image3 {
-    top: 2706px;
-    left: 54px;
+    top: 67%;
+    left: 8%;
+    height: 13rem;
+    width: 18rem;
   }
   .facts-area {
     grid-template-rows: 1fr 2fr;
@@ -147,9 +165,12 @@
   .facts-caption {
     grid-area: div1;
     font-size: 44px;
-    width: 263px;
-    height: 278px;
-    padding: 117px 0px 0px 38px;
+    width: 16rem;
+    height: 12rem;
+    margin: 0%;
+    padding: 0%;
+    left: 5%;
+    top: 19%;
   }
   .fact-box {
     font-size: 13px;
@@ -173,11 +194,11 @@
   }
   .fact-button {
     grid-area: div1;
-    margin: 332px 0px 0px 35px;
-    grid-area: div1;
-    height: 20px;
+    height: 5%;
     padding: 13px 0px 14px 0px;
-    width: 138px;
+    width: 39%;
+    top: 81%;
+    left: 7%;
   }
   .did-know {
     margin: 401px 0px 0px 59px;
@@ -222,7 +243,7 @@
     font-size: 44px;
     width: 289px;
     height: 181px;
-    padding: 75px 42px 76px 42px;
+    padding: 75px 28px 76px 41px;
     letter-spacing: 1px;
     line-height: 45px;
     text-align: center;

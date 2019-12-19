@@ -1,0 +1,170 @@
+@media (max-width: 376px) {
+  .intro-area {
+    height: 119rem;
+    width: auto;
+  }
+  .img1 {
+    /* background: url("/assets/assets/about-us/annie-spratt-427339-unsplash@2xmobile.png") */
+    /* no-repeat; */
+    /* background-size: 100% 100%; */
+    height: 100%;
+  }
+  .showcase {
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "caption" "text";
+    width: auto;
+    height: 92%;
+  }
+  .intro-caption {
+    grid-area: caption;
+    left: 11%;
+    top: 14%;
+    font-size: 44px;
+    margin: 0% 0% 17% 0%;
+    padding: 0%;
+  }
+
+  .intro-card {
+    grid-area: text;
+    width: 152%;
+    height: 91%;
+    padding: 1%;
+    left: 8%;
+    top: 6%;
+    margin: 0% 0% 0% 0%;
+    width: 19.5em;
+    height: 22.5em;
+  }
+  .intro-h1 {
+    font: Bold 22px/35px Helvetica;
+    width: 90%;
+    height: 96%;
+    padding: 6% 4% 4% 4%;
+  }
+  .mission-title {
+    grid-area: title;
+    /* margin: 0 auto; */
+    /* width: 21rem; */
+    position: relative;
+    left: 5%;
+    top: 41%;
+    height: 52%;
+    font-size: 1.188rem;
+  }
+  .symbol-title {
+    width: 83%;
+    font-size: 14px;
+  }
+  .symbol-text {
+    font-size: 12px;
+    width: 10rem;
+    height: 3rem;
+  }
+  .symbol-part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 96%;
+    left: 3%;
+    position: relative;
+    flex-wrap: wrap;
+    top: 0%;
+  }
+  .symbol-info {
+    margin: 0% 0% 6% 0%;
+  }
+  .img2 {
+    background-color: #354463;
+    grid-area: div2;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: "title" "symbols";
+    height: 73rem;
+    width: auto;
+  }
+  .what-box {
+    grid-area: title;
+    top: 15%;
+    position: relative;
+    left: 28%;
+    margin: 0%;
+  }
+  .the-issue {
+    top: 0%;
+    left: 33%;
+  }
+  .team-main-grid {
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: "info-text" "profiles";
+    height: inherit;
+  }
+  .info-text {
+    display: grid;
+    grid-area: info-text;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "title-area" "description";
+  }
+  .team-flex {
+    grid-area: profiles;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    left: 4%;
+    position: relative;
+    flex-wrap: wrap;
+    height: 20rem;
+    top: 0%;
+    width: 91%;
+  }
+  .our-team {
+    grid-area: title-area;
+    position: relative;
+    top: 17%;
+    left: 57%;
+    width: 84%;
+    height: 13%;
+  }
+  .team-area-title {
+    grid-area: title-area;
+    position: relative;
+    color: #354463;
+    font: Bold 22px/32px Helvetica;
+    width: 179%;
+    height: 42%;
+    top: 55%;
+    left: 5%;
+    text-align: center;
+    padding: 4% 4% 4% 5%;
+  }
+  .team-area-description {
+    grid-area: description;
+    position: relative;
+    color: #354463;
+    font: lighter 15px/27px Helvetica;
+    width: 199%;
+    height: 67%;
+    top: 19%;
+    left: 2%;
+    text-align: center;
+  }
+  .profile-img {
+    width: 40%;
+    height: 40%;
+    margin: 0% 0% 31% 0%;
+  }
+  .img-size {
+    width: 107%;
+    height: 108%;
+  }
+  .stories-area {
+    height: 72rem;
+  }
+  .profile-name {
+    width: 96%;
+    padding: 0% 9% 1% 2%;
+    left: 0%;
+    top: 150%;
+    height: 46%;
+  }
+}

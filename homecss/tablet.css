@@ -1,33 +1,40 @@
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .top-bar {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 61% 40%;
     grid-template-areas: "div1 div2";
+    height: 7rem;
   }
   .logo {
-    font: Bold 18px/22px Helvetica;
-    padding: 20px 0px 0px 29px;
+    padding: 0% 0% 0% 0%;
+    position: relative;
+    top: 18%;
+    left: 11%;
+    width: 49%;
+    font: bold 125% Helvetica;
+    line-height: normal;
+    line-height: 125%;
   }
   .nav-links {
     grid-area: div1;
     align-items: flex-end;
-    justify-content: space-evenly;
-    padding: 19px 0px 0px 0px;
-    margin: 11px 0px 0px 0px;
-    width: 399px;
-    height: 65px;
+    width: 97%;
+    height: 38%;
+    top: 56%;
+    left: 7%;
   }
   .donate-button {
-    padding: 15px 0px 0px 22px;
+    font: Bold 18px/24px Helvetica;
+    left: 7%;
   }
   .button {
     grid-area: div2;
-    width: 202px;
-    height: 61px;
-    margin: 19px 0px 0px 71px;
+    width: 69%;
+    height: 49%;
+    left: 23%;
+    top: 24%;
   }
   .image {
     background-image: url("/assets/assets/home/annie-spratt-135307-unsplash@2xtablet.png");
-    width: auto;
     grid-template-columns: none;
     grid-template-rows: repeat(2, 50%);
     grid-template-areas: "div1" "div2";
@@ -48,178 +55,203 @@
     left: 7%;
   }
   .intro-h1 {
-    font: Bold 28px/36px Helvetica;
     width: 78%;
-    height: 138px;
-    padding: 50px 0px 0px 60px;
-    margin: 0px 0px 0px 0px;
+    height: 45%;
+    padding: 0%;
+    position: relative;
+    top: 6%;
+    left: 11%;
+    font-size: 180%;
   }
   .the-issue {
+    top: 5%;
+    left: 15%;
+    width: 20%;
+    height: 11%;
     grid-area: div2;
-    top: 19px;
-    left: 94px;
-    width: 0px;
   }
   .intro-p {
-    margin: 0px 0px 0px 45px;
+    top: 7%;
+    left: 6%;
   }
   .take-action {
-    top: 78%;
     left: 37%;
-    position: absolute;
+    height: 5%;
+    width: 23%;
   }
   .take-action-card {
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "div1 div2" "div3 div4";
-    width: auto;
     height: 337px;
   }
   .action-card {
-    width: 260px;
-    margin: 32px 0px 0px 55px;
-    font-size: 15px;
+    width: 68%;
+    margin: 0px 0px 0px 55px;
+    font-size: 100%;
     padding: 0px 0px 0px 0px;
   }
   .what-box {
-    width: 150px;
-    height: 46px;
-    font-size: 16px;
-    margin: 88px 0px 0px 0px;
+    width: 22%;
+    height: 36%;
+    font-size: 100%;
+    top: 69%;
+    left: 5%;
   }
   .mission-area {
     width: auto;
-    height: 1338px;
+    height: 90rem;
   }
   .mission-title {
-    margin: 160px 0px 0px 100px;
-    font: Bold 27px/36px Helvetica;
-    width: 600px;
-    height: 140px;
+    top: 14%;
+    width: 93%;
+    left: 5%;
+    font-size: 200%;
+    line-height: 113.5%;
   }
   .info-area {
     grid-template-columns: none;
     grid-template-rows: repeat(3, 28%);
     grid-template-areas: "div1" "div2" "div3";
-    grid-gap: 65px;
+    grid-gap: 5%;
     width: auto;
+    bottom: 0%;
+    left: 0%;
+    height: 64rem;
+    top: 0%;
   }
   .info-box {
-    width: 614px;
-    height: 274px;
-    margin: 0px 0px 0px 94px;
-    padding: 0px 0px 0px 0px;
+    width: 93%;
+    height: 17rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "div1 div2";
+    grid-template-rows: 32% auto;
+    grid-template-areas: "div1" "div2";
+    left: 5%;
+    top: 12%;
   }
   .info-title {
-    grid-area: div2;
-    padding: 0px 0px 0px 0px;
-    width: 157px;
-    margin: 49px 0px 0px 9px;
+    grid-area: div1;
+    width: 32%;
+    height: 3rem;
+    top: 31%;
+    left: 56%;
+  }
+  .info-area img {
+    width: 90%;
+    height: 97%;
   }
   .info-box-text {
     grid-area: div2;
-    width: 219px;
-    height: 120px;
-    font-size: 15px;
-    padding: 102px 0px 0px 9px;
+    width: 42%;
+    height: 54%;
+    font-size: 94%;
+    top: 0%;
+    left: 45%;
   }
   .read-more {
-    width: 137px;
-    height: 29px;
-    margin: 189px 0px 0px 96px;
+    width: 15%;
+    height: 22%;
+    top: 230%;
     grid-area: div1;
+    left: 28%;
   }
   .info-box-image1 {
-    top: 1462px;
-    left: 122px;
+    left: 15%;
+    top: 0%;
+    width: 41%;
+    height: 20%;
   }
 
   .info-box-image2 {
-    top: 1790px;
-    left: 122px;
+    left: 13%;
+    top: 33%;
+    height: 19%;
   }
   .info-box-image3 {
-    top: 2132px;
-    left: 122px;
+    left: 15%;
+    top: 67%;
+    height: 20%;
   }
-
   .facts-area {
     width: auto;
-    height: 1279px;
+    height: 59rem;
     background-image: url("../assets/assets/home/did-you-know-background@2x.png");
   }
   .facts-caption {
-    font-size: 44px;
-    width: 200px;
-    height: 278px;
-    padding: 155px 0px 0px 75px;
+    font-size: 309%;
+    width: 51%;
+    height: 25%;
   }
   .fact-box {
-    font-size: 13px;
-    width: 321px;
-    height: 124px;
+    font-size: 92%;
+    width: 87%;
+    height: 14%;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
   }
   pre {
-    height: 48px;
+    height: 78%;
   }
   .fbox-icons-twit {
-    top: 4px;
-    left: 62px;
+    top: 9%;
+    left: 25%;
   }
   .fbox-icons-fb {
-    margin: 0px 0px 0px 274px;
+    margin: 0% 0% 0% 83%;
   }
   .fbox-title {
-    font: Bold 26px/36px Helvetica;
-    width: 240px;
-    height: 40px;
+    font: Bold 178% Helvetica;
+    width: 73%;
+    height: 67%;
     margin: 19px 0px 0px 13px;
   }
   .fbox-text {
     grid-area: div2;
-    width: 235px;
-    height: 43px;
-    font: Light 18px/22px Helvetica;
+    width: 81%;
+    height: 78%;
+    font: lighter 104.5% Helvetica;
     padding: 5px 9px 0px 10px;
     margin: 0px 0px 0px 0px;
   }
   .fact-button {
-    margin: 445px 0px 0px 68px;
     grid-area: div1;
-    height: 20px;
+    height: 2%;
     padding: 13px 0px 14px 0px;
+    top: 38%;
+    width: 38%;
   }
   .did-know {
-    margin: 131px 0px 0px 393px;
+    left: 53%;
+    top: 167rem;
+    margin: 0%;
   }
   .stories-area {
     width: auto;
-    height: 890px;
+    height: 64rem;
+    position: relative;
   }
   .story-box {
-    height: 181px;
-    width: 440px;
+    width: 50%;
+    top: 15%;
+    left: 5%;
+    height: 19%;
     font: Bold 17px/23px Helvetica;
-    padding: 32px 30px 0px 51px;
-    margin: 504px 0px 0px 201px;
   }
   .story-image {
-    margin: 76px 0px 0px 62px;
+    left: 11%;
+    height: 47%;
+    margin: 0%;
+    top: 13%;
+    width: 62%;
   }
   .stories {
-    top: 95px;
+    top: 11%;
     margin: 0px 0px 0px 111px;
-    width: 190px;
-    height: 38px;
+    width: 23%;
+    height: 5%;
   }
   .story-read-more {
-    top: 56px;
-    right: 123px;
+    top: 42%;
   }
 
   .future-area {
