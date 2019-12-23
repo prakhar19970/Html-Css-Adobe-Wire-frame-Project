@@ -1,0 +1,59 @@
+@media (max-width: 992px) {
+  .form-area {
+    grid-template-rows: 20% 80%;
+    grid-template-areas: "div1" "div2";
+    grid-template-columns: none;
+    height: 88%;
+  }
+  .form-image {
+    background-image: url("/assets/assets/donation/annie-spratt-427340-unsplash-\(1\)@2xtablet.png");
+    height: 88rem;
+  }
+  .title-logo {
+    left: 0%;
+    top: 0%;
+  }
+  .form-caption {
+    grid-area: div1;
+    top: 30%;
+    max-width: 73%;
+    left: 16%;
+    width: 70%;
+    height: 40%;
+    text-align: center;
+  }
+  .donation-form {
+    top: 0%;
+    left: 9%;
+    width: 83%;
+    height: 103%;
+    grid-area: div2;
+  }
+  .form-title {
+    top: 44%;
+    font: bold 26px/28px Helvetica;
+    left: 7%;
+    width: 91%;
+  }
+  .confirm {
+    top: 0%;
+    width: 85%;
+    max-width: 84%;
+    margin: auto;
+    left: 0%;
+  }
+  .pay-title {
+    top: 42%;
+    left: 8%;
+  }
+  .payment {
+    width: 65%;
+    height: 17%;
+    top: 29%;
+    position: relative;
+    margin: 0%;
+    padding: 5% 13% 5% 12%;
+    font-size: 19px;
+    left: 0%;
+  }
+}

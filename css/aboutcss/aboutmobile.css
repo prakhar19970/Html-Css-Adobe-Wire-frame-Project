@@ -1,0 +1,133 @@
+@media (max-width: 768px) {
+  .intro-area {
+    height: 119rem;
+  }
+  .img1 {
+    background: url("/assets/assets/about-us/annie-spratt-427339-unsplash@2xmobile.png")
+      no-repeat;
+    background-size: 100% 100%;
+  }
+  .showcase {
+    height: auto;
+  }
+  .intro-caption {
+    left: 11%;
+    top: 14%;
+    font-size: 44px;
+    margin: 0% 0% 17% 0%;
+    padding: 0%;
+  }
+
+  .intro-card {
+    width: 161%;
+    height: 91%;
+    padding: 1%;
+    left: 24%;
+    top: 6%;
+    height: 22.5em;
+  }
+  .intro-h1 {
+    height: 96%;
+    font: bold 21px/32px Helvetica;
+    max-width: 90%;
+    padding: 0% 4% 4% 4%;
+  }
+  .mission-title {
+    left: 12%;
+    top: 41%;
+    height: 52%;
+    font-size: 1.188rem;
+  }
+  .symbol-title {
+    width: 83%;
+    font-size: 14px;
+  }
+  .symbol-text {
+    width: 10rem;
+    height: 3rem;
+  }
+  .symbol-part1 {
+    justify-content: space-evenly;
+  }
+  .symbol-info {
+    margin: 0% 0% 6% 0%;
+  }
+  .img2 {
+    height: 73rem;
+  }
+  .what-box {
+    left: 29%;
+  }
+  .the-issue {
+    top: 0%;
+    left: 68%;
+    min-width: 77%;
+    max-width: 100%;
+  }
+  .team-main-grid {
+    grid-template-rows: 27% 58%;
+  }
+  .info-text {
+    grid-area: info-text;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "title-area" "description";
+  }
+  .team-flex {
+    height: 20rem;
+    top: 0%;
+    width: 91%;
+  }
+  .our-team {
+    left: 57%;
+    width: 84%;
+    height: 29%;
+  }
+  .team-area-title {
+    font: bold 22px/32px Helvetica;
+    width: 179%;
+    height: 42%;
+    top: 55%;
+    left: 5%;
+    text-align: center;
+    padding: 4% 4% 4% 5%;
+  }
+  .team-area-description {
+    width: 199%;
+    height: 67%;
+    top: 19%;
+    left: 2%;
+    text-align: center;
+  }
+  .profile-img {
+    width: 40%;
+    height: 40%;
+    margin: 0% 0% 31% 0%;
+  }
+  .profile-name {
+    width: 96%;
+    padding: 0% 9% 1% 2%;
+    left: 0%;
+    top: 150%;
+    height: 46%;
+  }
+  .impact-area {
+    height: 55rem;
+  }
+  .our-impact {
+    width: 30%;
+  }
+
+  .impact-facts {
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fact {
+    font-size: 44px;
+    width: 80%;
+  }
+  .fact-desc {
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+}

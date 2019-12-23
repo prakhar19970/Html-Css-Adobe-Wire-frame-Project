@@ -1,0 +1,664 @@
+html {
+  scroll-behavior: smooth;
+}
+/* * {
+  box-sizing: border-box;
+} */
+
+@font-face {
+  font-family: "Flood";
+  src: url("../fonts/Flood.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+.top-bar {
+  padding: 1%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "logo links donate-button";
+  width: auto;
+  position: relative;
+}
+.logo {
+  width: 82%;
+  height: 63%;
+  grid-area: logo;
+  text-align: left;
+  font: bold 112.5% Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  opacity: 100%;
+  padding: 9% 6% 3% 36%;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #354463;
+}
+.nav-links {
+  top: 43%;
+  width: 100%;
+  height: 39%;
+  text-align: left;
+  font-weight: lighter;
+  font-family: Helvetica;
+  grid-area: links;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  font-size: 100%;
+  line-height: 150%;
+}
+.donate-button {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  font: bold 100% Helvetica;
+  line-height: 150%;
+  position: relative;
+}
+.button {
+  grid-area: donate-button;
+  background: #c1f7d5;
+  border-radius: 2rem;
+  width: 54%;
+  height: 67%;
+  position: relative;
+  top: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: auto;
+  height: 48rem;
+  background-image: url("/assets/assets/home/annie-spratt-135307-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "div1 div2";
+  opacity: 100%;
+  position: relative;
+}
+.info-area img {
+  width: 100%;
+  height: 89%;
+}
+.intro-card {
+  background: white;
+  color: #354463;
+  position: relative;
+  top: 31%;
+  left: 25%;
+  grid-area: div1;
+  width: 69%;
+  height: 50%;
+  display: grid;
+  grid-template-rows: 64% 36%;
+}
+.intro-h1 {
+  font-size: 208%;
+  padding: 0 0 0 25px;
+  width: 81%;
+  height: 57%;
+  top: 6%;
+  font-weight: bold;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.intro-p {
+  text-decoration: underline;
+  padding: 15px;
+  margin: 0 0 0 10px;
+  text-decoration: underline;
+  font: lighter 100%/150% Helvetica;
+  position: relative;
+}
+.the-issue {
+  position: relative;
+  top: 27%;
+  left: 29%;
+  grid-area: div1;
+  z-index: 1;
+  width: 25%;
+  height: 9%;
+}
+.card-title {
+  color: white;
+  background: #354463;
+  font-family: monospace;
+  width: 91%;
+  height: 82%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  font-size: 118%;
+}
+.intro-caption {
+  font-family: "Flood";
+  color: white;
+  font-size: 400%;
+  width: 39%;
+  height: 27%;
+  position: relative;
+  top: 27%;
+  left: 19%;
+  grid-area: div2;
+}
+.take-action {
+  position: absolute;
+  width: 12%;
+  height: 8%;
+  top: 97%;
+  z-index: 1;
+  left: 44%;
+}
+.take-action-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "div1 div2 div3 div4";
+  width: auto;
+  height: 14rem;
+  background: #c1f7d5;
+  color: #354463;
+  position: relative;
+}
+.action-card {
+  width: 83%;
+  height: 50%;
+  font-size: 100%;
+  position: relative;
+  top: 34%;
+  left: 10%;
+}
+.action-text {
+  margin: 0%;
+}
+.action-card1 {
+  grid-area: div1;
+}
+
+.action-card2 {
+  grid-area: div2;
+}
+
+.action-card3 {
+  grid-area: div3;
+}
+
+.action-card4 {
+  grid-area: div4;
+}
+.what-box {
+  top: 63%;
+  left: 10%;
+  width: 12%;
+  height: 30%;
+}
+.mission-area {
+  display: grid;
+  width: auto;
+  height: 65rem;
+  background: #354463;
+  opacity: 100%;
+}
+.mission-title {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  opacity: 100%;
+  position: relative;
+  top: 5%;
+  width: 79%;
+  left: 10%;
+  font-size: 178%;
+  line-height: 173%;
+}
+.info-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "div1 div2 div3";
+  left: 0%;
+  position: relative;
+  bottom: 12%;
+  left: 4%;
+  width: 90%;
+  height: 29rem;
+}
+#box1 {
+  grid-area: div1;
+}
+#box2 {
+  grid-area: div2;
+}
+#box3 {
+  grid-area: div3;
+}
+.info-box {
+  width: 74%;
+  height: 99%;
+  background: #ffffff;
+  opacity: 100%;
+  color: #354463;
+  position: relative;
+  left: 17%;
+  top: 9%;
+}
+.info-title {
+  top: 39%;
+  position: relative;
+  width: 60%;
+  left: 11%;
+}
+.info-box-text {
+  width: 81%;
+  height: 19%;
+  font-size: 13px;
+  top: 39%;
+  position: relative;
+  padding: 0% 0% 0% 11%;
+}
+.read-more {
+  text-align: center;
+  font: bold 87.5% Helvetica;
+  padding: 3% 7% 3% 7%;
+  left: 10%;
+  top: 42%;
+  height: 5%;
+}
+.info-box-image1 {
+  position: absolute;
+  z-index: 1;
+  top: 1%;
+  left: 9%;
+  width: 26%;
+  height: 50%;
+}
+
+.info-box-image2 {
+  left: 42%;
+  position: absolute;
+  z-index: 1;
+  top: 2%;
+  width: 19rem;
+  height: 51%;
+}
+.info-box-image3 {
+  left: 75%;
+  position: absolute;
+  width: 19rem;
+  height: 51%;
+  z-index: 1;
+  top: 2%;
+}
+
+.facts-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "div1 div2";
+  width: auto;
+  height: 86rem;
+  background-image: url("/assets/assets/home/did-you-know-background.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+.facts-caption {
+  font-family: "Flood";
+  color: white;
+  font-size: 400%;
+  width: 55%;
+  height: 19%;
+  top: 9%;
+  left: 18%;
+  position: relative;
+  grid-area: div1;
+}
+.fact-button {
+  grid-area: div1;
+  height: 2%;
+  text-align: center;
+  font: bold 87.5% Helvetica;
+  padding: 15px 5px 15px 5px;
+  position: relative;
+  top: 36%;
+  left: 18%;
+  width: 26%;
+}
+.fact-box-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  grid-area: div2;
+}
+.fact-box {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div1 div3" "div2 div4";
+  background: #ffffff;
+  width: 67%;
+  height: 12%;
+  left: 4%;
+  color: #354463;
+  grid-template-columns: 80% 20%;
+  position: relative;
+}
+.fbox-icons-twit {
+  position: relative;
+  background-color: #c1f7d5;
+  padding: 9%;
+  -webkit-border-radius: 50%;
+  grid-area: div3;
+  height: 32px;
+  width: 32px;
+  box-sizing: border-box;
+  top: 52%;
+  left: 13%;
+}
+.fbox-icons-fb {
+  grid-area: div4;
+  position: relative;
+  background-color: #c1f7d5;
+  padding: 9% 11%;
+  -webkit-border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  box-sizing: border-box;
+  left: 16%;
+}
+.fbox-title {
+  font: bold 200% Helvetica;
+  text-align: left;
+  width: 87%;
+  height: 53.5%;
+  padding: 0px 0px 0px 0px;
+  margin: 41px 0px 0px 37px;
+  position: relative;
+}
+.fbox-text {
+  grid-area: div2;
+  width: 74%;
+  height: 47%;
+  font: lighter 87.5% Helvetica;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 35px;
+}
+
+.did-know {
+  width: 10rem;
+  height: 4%;
+  position: relative;
+  grid-area: div2;
+  top: 9%;
+  left: 9%;
+  z-index: 1;
+}
+
+.stories-area {
+  background-color: #ffffff;
+  width: auto;
+  height: 51rem;
+}
+.story-box {
+  position: relative;
+  height: 49%;
+  width: 37%;
+  background-color: #354463;
+  text-align: left;
+  font: bold 137%/125% Helvetica;
+  color: #ffffff;
+  padding: 14px 48px 20px 56px;
+  margin: 0%;
+  top: 14%;
+  left: 5%;
+}
+.story-image {
+  background-image: url("/assets/assets/home/lady-baby@2x.png");
+  background-repeat: no-repeat;
+  width: 48%;
+  height: 83%;
+  background-size: 100% 100%;
+  position: absolute;
+  opacity: 100%;
+  left: 49%;
+}
+.stories {
+  position: relative;
+  top: 6%;
+  z-index: 1;
+  width: 16%;
+  height: 9%;
+  left: 58%;
+}
+.story-text-caption {
+  font-size: small;
+}
+.story-read-more {
+  position: relative;
+  top: 23%;
+  padding: 9px 25px 14px 34px;
+  text-align: center;
+  font: bold 87.5%/100% Helvetica;
+  left: 5%;
+  width: 23%;
+  height: 5%;
+}
+.stories-box {
+  width: 80%;
+  height: 69%;
+  position: relative;
+  left: 9%;
+  top: 11%;
+}
+.future-area {
+  width: auto;
+  height: 84rem;
+  background: #354463;
+}
+.future-caption {
+  font-family: "Flood";
+  color: white;
+  font-size: 344%;
+  width: 54%;
+  height: 8%;
+  left: 15%;
+  position: relative;
+  top: 8%;
+}
+.future-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "div1 div2";
+  width: 72%;
+  height: 28rem;
+  color: #ffffff;
+  position: relative;
+  left: 12%;
+  margin-bottom: 7%;
+}
+.future-box-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  top: 8%;
+}
+.future-box-img-1 {
+  background-image: url("/assets/assets/home/tree-planting@2x.png");
+  grid-area: div1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  opacity: 100%;
+  position: relative;
+  left: 8%;
+  top: 8%;
+}
+.future-box-img-2 {
+  background-image: url("/assets/assets/home/meeting@2x.png");
+  grid-area: div2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  opacity: 100%;
+  position: relative;
+}
+.future-box-info-1 {
+  grid-area: div2;
+  display: grid;
+  grid-template-rows: 16% 30% 37% 17%;
+  grid-template-areas: "div1" "div2" "div3" "div4";
+}
+.future-box-info-2 {
+  grid-area: div1;
+  display: grid;
+  grid-template-rows: 17% 28% 39% 17%;
+  grid-template-areas: "div1" "div2" "div3" "div4";
+}
+.future-title {
+  grid-area: div2;
+  text-align: left;
+  font: bold 175% Helvetica;
+  width: 70%;
+  height: 64%;
+  position: relative;
+  top: 4%;
+  left: 11%;
+}
+.future-text {
+  grid-area: div3;
+  width: 83%;
+  height: 100%;
+  font: lighter 100% Helvetica;
+  position: relative;
+  left: 11%;
+  line-height: 157%;
+  top: 0%;
+}
+.future-read-more {
+  grid-area: div4;
+  text-align: center;
+  font: bold 87.5% Helvetica;
+  padding: 12px 4px 0px 4px;
+  height: 42%;
+  position: relative;
+  left: 11%;
+  width: 28%;
+  top: 61%;
+}
+
+.white-box {
+  color: #354463;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.future-event-box {
+  top: 22%;
+  left: 52%;
+  height: 3%;
+  width: 10%;
+}
+.future-latest-news-box {
+  left: 16%;
+  height: 2rem;
+  position: relative;
+  top: 2rem;
+  width: 13%;
+}
+.subscribe-section {
+  height: 13rem;
+  background: #c1f7d5;
+}
+
+.subscribe-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 27%;
+  position: relative;
+  width: auto;
+}
+.subscribe-read-more {
+  background: #354463;
+  color: #c1f7d5;
+  border-radius: 100px;
+  text-align: center;
+  font: bold 87.5% Helvetica;
+  padding: 8px 12px 7px 12px;
+}
+.subscribe-title {
+  text-align: left;
+  font: bold 150% Helvetica;
+  color: #354463;
+  width: 43%;
+}
+.email-box {
+  border-radius: 100px;
+  height: 1rem;
+  border: none;
+  padding: 12px;
+  width: 91%;
+}
+.bottom-bar {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "logo links caption";
+}
+footer {
+  height: 245px;
+  width: auto;
+  padding: 46px 0px 0px 0px;
+}
+.footer-caption {
+  font-family: "Flood";
+  color: #354463;
+  font-size: 42px;
+  width: 100%;
+  height: 9rem;
+  margin: 10% 0% 2% 0%;
+  grid-area: caption;
+  text-align: right;
+}
+.links {
+  text-align: left;
+  font: lighter 14px/8px Helvetica;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 120px;
+}
+.footer-links {
+  text-align: left;
+  font: small Helvetica;
+  grid-area: links;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 94%;
+  margin: 1% 0px 1% 2%;
+  position: relative;
+  left: 2%;
+}
+.footer-info-text {
+  text-align: left;
+  font: small Helvetica;
+  color: #354463;
+  margin: 19px 0px 15px 0px;
+  width: 77%;
+}
+.dash {
+  width: 135px;
+  background: #354463;
+  height: 1px;
+}
+.contact-us {
+  width: 160px;
+}

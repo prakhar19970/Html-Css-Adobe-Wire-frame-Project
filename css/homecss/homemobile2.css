@@ -1,0 +1,391 @@
+@media (max-width: 768px) {
+  .top-bar {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "logo links" "donate-button donate-button";
+    height: 13rem;
+    grid-template-rows: 60%;
+  }
+  .logo {
+    top: 37%;
+    width: 49vw;
+    left: 10%;
+    font: bold 112.5% Helvetica;
+  }
+  .nav-links {
+    font: semi-condensed 14px/18px Helvetica;
+    grid-area: links;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 41vw;
+    left: 17%;
+    height: 70%;
+    top: 21%;
+  }
+
+  .button {
+    width: 95%;
+    height: 3rem;
+    top: 13%;
+    left: 2%;
+  }
+  .image {
+    background-image: url("/assets/assets/home/annie-spratt-135307-unsplash@2xcropped.png");
+  }
+  .intro-caption {
+    top: 13%;
+  }
+  .intro-card {
+    width: 87%;
+    height: 71%;
+    left: 9%;
+  }
+  .intro-h1 {
+    font: bold 28px/38px Helvetica;
+    max-width: 76%;
+    height: auto;
+    text-align: center;
+    top: 10%;
+    left: 13%;
+  }
+  .the-issue {
+    max-width: 70%;
+    left: 31%;
+    min-width: 44%;
+  }
+  .intro-p {
+    font-size: 87.5%;
+    font-family: Helvetica;
+    text-align: center;
+    left: 14%;
+    width: 63%;
+    height: auto;
+  }
+  .take-action {
+    top: 98%;
+    left: 30%;
+    width: 42%;
+  }
+  .take-action-card {
+    width: auto;
+    height: auto;
+    padding: 4%;
+  }
+  .action-text {
+    margin: 0%;
+    width: auto;
+  }
+  .action-card {
+    width: 96%;
+    margin: 0%;
+    font-size: 14px;
+    left: 2%;
+    height: 7rem;
+  }
+  .what-box {
+    min-width: 47%;
+    height: 80%;
+    left: 28%;
+    max-width: 47%;
+    top: 60%;
+  }
+  .mission-area {
+    height: 134rem;
+  }
+  .mission-title {
+    font: bold 19px/33px Helvetica;
+    width: 79%;
+    height: 83%;
+    text-align: center;
+    left: 14%;
+    top: 46%;
+  }
+  .info-area {
+    grid-gap: 0%;
+    height: 124rem;
+    top: 5%;
+  }
+  .info-box {
+    width: 71%;
+    height: 29rem;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "div1" "div2";
+    text-align: center;
+    left: 18%;
+  }
+  .info-title {
+    width: 95%;
+    left: 4%;
+    top: 77%;
+  }
+  .info-box-text {
+    left: 0%;
+    width: 78%;
+    line-height: 139%;
+    font-size: 95%;
+  }
+  .read-more {
+    width: 33%;
+    height: 9%;
+    grid-area: div2;
+    top: 68%;
+    left: 28%;
+  }
+  .info-area img {
+    width: 53%;
+    height: 43%;
+    position: relative;
+    left: 30%;
+  }
+
+  .info-box-image1 {
+    top: 1%;
+    left: 9%;
+    height: 34rem;
+    width: 80%;
+  }
+
+  .info-box-image2 {
+    top: 29%;
+    left: 9%;
+    height: 34rem;
+    width: 80%;
+  }
+  .info-box-image3 {
+    top: 57%;
+    left: 9%;
+    height: 34rem;
+    width: 80%;
+  }
+  .facts-area {
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: "div1" "div2";
+    height: 1046px;
+    background-image: url("/assets/assets/home/Did\ you\ know\ background@2xmobile.png");
+  }
+  .facts-caption {
+    font-size: 44px;
+    height: 12rem;
+    margin: 0%;
+    padding: 0%;
+    left: 5%;
+    top: 19%;
+    width: 92%;
+  }
+  .fact-box {
+    font-size: 13px;
+    width: 121%;
+    left: 38%;
+    height: 19%;
+  }
+  /* .info-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .fbox-icons-twit {
+    left: 14%;
+    top: 42%;
+    padding: 12%;
+  }
+  .fbox-icons-fb {
+    padding: 11% 15%;
+  }
+  .fbox-text {
+    width: 88%;
+  }
+  .fbox-title {
+    width: 87%;
+    top: 42%;
+  }
+  .fact-button {
+    height: 5%;
+    top: 81%;
+    left: 7%;
+    width: 60%;
+  }
+  .did-know {
+    top: 3%;
+    left: 71%;
+    width: 59%;
+    height: 6%;
+  }
+
+  .stories-area {
+    width: 100%;
+    height: 67rem;
+  }
+  .stories-box {
+    width: 92%;
+    height: 87%;
+    position: relative;
+    left: 3%;
+    top: 11%;
+  }
+  .story-box {
+    position: relative;
+    height: 26%;
+    width: 63%;
+    font: bold 131.25% Helvetica;
+    padding: 31px;
+    text-align: center;
+    left: 10%;
+    top: 48%;
+  }
+  .story-image {
+    background-image: url("/assets/assets/home/lady-baby@2xmobile.png");
+    top: 7%;
+    left: 10%;
+    width: 79%;
+    height: 44%;
+  }
+  .stories {
+    top: 6%;
+    width: 51%;
+    height: 5%;
+    left: 25%;
+  }
+  .story-text-caption {
+    font-size: 44%;
+  }
+  .story-read-more {
+    top: 51%;
+    left: 22%;
+    width: 36%;
+    height: 3%;
+  }
+
+  .future-area {
+    height: 136rem;
+  }
+  .future-caption {
+    width: 80%;
+    height: 13%;
+    padding: 4%;
+    line-height: 106%;
+    text-align: center;
+    top: 6%;
+  }
+  .future-box {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "div1" "div2";
+    width: 82%;
+    height: 47rem;
+    left: 6%;
+  }
+
+  .future-box-img-1 {
+    left: 19%;
+    width: 179%;
+    height: auto;
+  }
+  .future-box-img-2 {
+    grid-area: div1;
+    left: 18%;
+    top: 3%;
+    height: 89%;
+    width: 174%;
+  }
+  .future-box-info-1 {
+    grid-template-rows: 24% 38% 22%;
+    grid-template-areas: "div2" "div3" "div4";
+    width: 112%;
+  }
+  .future-box-info-2 {
+    grid-area: div2;
+    grid-template-rows: 24% 54% 22%;
+    grid-template-areas: "div2" "div3" "div4";
+  }
+  .future-title {
+    font: bold 126% Helvetica;
+    width: 197%;
+    height: 66%;
+    text-align: center;
+    left: 0%;
+    top: 70%;
+    margin: 0%;
+  }
+  .future-text {
+    width: 171%;
+    height: 77%;
+    font: lighter 94% Helvetica;
+    text-align: center;
+    left: 13%;
+    top: 32%;
+  }
+  .future-read-more {
+    font: bold 100% Helvetica;
+    padding: 9px 0px 9px 0px;
+    height: 38%;
+    margin: 20px 0px 0px 0px;
+    width: 91%;
+    left: 51%;
+  }
+  .future-event-box {
+    left: 26%;
+    top: 25%;
+    height: 2%;
+    width: 42%;
+    z-index: 1;
+  }
+  .future-latest-news-box {
+    left: 28%;
+    height: 3rem;
+    width: 41%;
+    z-index: 1;
+  }
+  .subscribe-section {
+    height: 220px;
+  }
+  .subscribe-area {
+    width: auto;
+    justify-content: space-around;
+    top: 0px;
+    left: 0px;
+  }
+  .subscribe-title {
+    width: 121%;
+    margin: 0%;
+    padding: 3%;
+  }
+  .email-box {
+    width: 164px;
+  }
+  .footer-caption {
+    width: 179px;
+    margin: 0% 0% 0% auto;
+    grid-area: caption;
+  }
+  .links {
+    margin: 0px 80px 0px 0px;
+  }
+  .footer-links {
+    grid-area: logo;
+    width: auto;
+    justify-content: end;
+    left: 0%;
+    margin-left: auto;
+  }
+  .contact-us {
+    width: 170px;
+    margin-left: 34%;
+    margin-right: 0%;
+  }
+  .bottom-logo {
+    top: 15%;
+    width: 29%;
+    font: bold 112.5% Helvetica;
+    padding: 0%;
+    margin-right: auto;
+  }
+  .bottom-bar {
+    grid-template-rows: repeat(2, 1fr);
+
+    grid-template-areas: "logo" "caption";
+    padding: 0% 18% 0% 18%;
+    height: auto;
+    grid-template-columns: none;
+    width: auto;
+  }
+}

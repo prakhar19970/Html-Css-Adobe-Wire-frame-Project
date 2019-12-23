@@ -1,0 +1,121 @@
+@media (max-width: 992px) {
+  .intro-area {
+    grid-template-rows: 1fr 1fr;
+  }
+  .img1 {
+    background: url("/assets/assets/about-us/annie-spratt-427339-unsplash@2xtablet.png")
+      no-repeat;
+    background-size: 100% 100%;
+  }
+  .showcase {
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "caption" "text";
+  }
+  .img2 {
+    height: 59rem;
+  }
+  .intro-caption {
+    left: 19%;
+    top: 36%;
+    font-size: 62px;
+  }
+
+  .intro-card {
+    width: 175%;
+    height: 93%;
+    top: 121%;
+    margin: 0% 0% 0% 0%;
+  }
+  .intro-h1 {
+    font: bold 22px/35px Helvetica;
+    height: 74%;
+    padding: 3% 4% 3% 4%;
+    left: 0%;
+  }
+
+  .symbol-text {
+    font-size: 12px;
+    width: 15rem;
+  }
+  .symbol-part1 {
+    justify-content: start;
+    width: 96%;
+    left: 3%;
+    top: 0%;
+  }
+  .mission-title {
+    left: 5%;
+    top: 41%;
+    height: 52%;
+    font-size: 171%;
+
+    max-width: 85%;
+  }
+  .what-box {
+    top: 15%;
+    left: 5%;
+    margin: 0%;
+  }
+  .the-issue {
+    top: 113%;
+    left: 34%;
+    width: 43%;
+    height: 19%;
+  }
+  .team-main-grid {
+    grid-template-rows: 1fr 3fr;
+    height: 89rem;
+  }
+
+  .team-flex {
+    justify-content: space-around;
+    left: 4%;
+    width: 81%;
+  }
+  .our-team {
+    top: 17%;
+    left: 15%;
+    width: 62%;
+    height: 13%;
+  }
+  .team-area-title {
+    font: bold 31px/36px Helvetica;
+    width: 84%;
+    height: 28%;
+    left: 15%;
+  }
+  .team-area-description {
+    width: 77%;
+    left: 8%;
+  }
+  .profile-img {
+    width: 40%;
+    margin: 0% 0% 13% 0%;
+  }
+  .img-size {
+    width: 107%;
+    height: 108%;
+  }
+
+  .profile-name {
+    width: 81%;
+    padding: 2% 15% 1% 9%;
+    left: 12%;
+    top: 117%;
+  }
+
+  .impact-title {
+    font-size: 36px;
+    font-weight: bold;
+    width: 90%;
+  }
+  .our-impact {
+    width: 20%;
+  }
+  .fact {
+    width: 50%;
+  }
+  .fact-desc {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,98 @@
+@media (max-width: 550px) {
+  .intro-h1 {
+    font: bold 22px/24px Helvetica;
+    max-width: 78%;
+    top: 10%;
+    left: 11%;
+  }
+  .intro-p {
+    left: 0%;
+    width: 84%;
+  }
+  .info-box {
+    width: 88%;
+    height: 30rem;
+    left: 8%;
+  }
+  .read-more {
+    width: 40%;
+    left: 25%;
+    top: 66%;
+  }
+  .info-area img {
+    width: 79%;
+    height: 41%;
+    left: 16%;
+  }
+  .facts-caption {
+    width: 140%;
+  }
+  .fact-box {
+    font-size: 13px;
+    width: 158%;
+    height: 19%;
+    left: 16%;
+  }
+  .fact-button {
+    width: 78%;
+  }
+  .did-know {
+    left: 53%;
+    width: 87%;
+  }
+  .story-box {
+    height: 34%;
+    top: 43%;
+  }
+  .story-image {
+    left: 7%;
+    width: 88%;
+    height: 39%;
+  }
+
+  .story-read-more {
+    top: 47%;
+    left: 20%;
+  }
+
+  .future-box-img-1 {
+    height: 70%;
+  }
+
+  .future-text {
+    margin: 0px;
+  }
+  .future-read-more {
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    top: 78%;
+  }
+
+  .links {
+    margin: 0px 67px 0px 0px;
+  }
+  .footer-links {
+    grid-area: logo;
+
+    width: auto;
+
+    margin: 0%;
+    justify-content: end;
+  }
+  .contact-us {
+    margin-left: 41%;
+    margin-right: 0%;
+    min-width: 28%;
+    max-width: 40%;
+  }
+  .bottom-logo {
+    height: 55%;
+    top: 7%;
+    left: 1%;
+    width: 33%;
+  }
+  .bottom-bar {
+    padding: 0px;
+    padding: 3%;
+  }
+}
